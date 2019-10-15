@@ -7,7 +7,7 @@ version: 2
     - checkout
     - run:
         name: Configure
-        command: autoreconf -i && ./configure --enable-silent-rules ${CONFIGURE_ARGS}
+        command: autorecon -i && ./configure --enable-silent-rules ${CONFIGURE_ARGS}
     - run: 
         name: Build
         command: make -j && make check
