@@ -6,8 +6,8 @@
  * other necessary headers from liboqs.
  */
 
-#ifndef __OQS_H
-#define __OQS_H
+#ifndef OQS_H
+#define OQS_H
 
 #include <oqs/oqsconfig.h>
 
@@ -18,4 +18,4 @@
 #include <oqs/rand.h>
 #include <oqs/kem.h>
 
-#endif // __OQS_H
+#endif // OQS_H

@@ -119,7 +119,7 @@ test-results
 
 # IDEs
 .idea
-
-# Others
-build/
 tags
+
+# CMake
+build/
